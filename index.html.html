@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Online Resume</title>
+<style>
+    body{
+        font-family: Arial;
+        marigin: 0px;
+        padding: 0px;
+        
+    }
+    header{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .container{
+        max-width: 100%;
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    
+    table {
+      width: 90%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    th, td {
+      padding: 8px;
+      border-bottom: 1px solid white;
+    }
+    img{
+        max-width: 15%;
+        border-radius: 0px;
+        float: right;
+        height: 150px;
+    }
+    
+</style>
+</head>
+<header>
+    <h1> Resume</h1>
+</header>
+<h2>AALA GANGA MOHAN</h2>
+<img src="images/pic.jpg">
+<div class="container">
+    <p><strong>Email:</strong>chintu.aala16@gmail.com</p>
+    <p><strong>Phone:</strong>7330625876</p>
+    <p><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/aalaganga-mohan-489a3b289/"> Your Profile</a></p>
+    <p><strong>Portfolio:</strong><a href="file:///C:/Users/HP/Downloads/html/a.html">Your Portfolio Website</a></p>
+    <section class="Education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>SL.NO</th>
+                <th>Institution</th>
+                <th>Degree</th>
+                <th>Year</th>
+                <th>CGPA</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>KKR & KSR Institute Of Technology and Sciences</td>
+                <td>B.TECH,Electronics Communication and engineering</td>
+                <td>2020-2024</td>
+                <td>8.01</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sri chaitanya</td>
+                <td>State Board Of Intermediate,AP,Guntur</td>
+                <td>2018-2020</td>
+                <td>9.48</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Neo Vision school</td>
+                <td>state Board of secondary education</td>
+                <td>2017-2018</td>
+                <td>8.8</td>
+            </tr>
+        </table>
+
+    </section>
+    <section class="programming Skills">
+        <h2>programming Skills</h2>
+        <ul>
+            <li>c</li>
+            <li>Python</li>
+        </ul>
+        <h2>Techinical Skills</h2>
+        <ul>
+            <li>My Sql</li>
+            <li>Html</li>
+        </ul>
+    </section>
+    <section class="Achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li> Participated in the internships during college semesters offered by AICTE</li>
+            <li> Participated in the Accenture Innovation Challenge 2023 and EY Techathon 4.0</li>
+            <li>Actively participated in workshops and Hackathons conducted by our college</li>
+            <li>Participated in 36 hours Hackathon in Hands-on training on Internet of things & applications</li>
+        </ul>
+    </section>
+    <section class="certifications">
+        <h2>certifications</h2>
+        <ul>
+            <li> Certification of completion online course C for beginners and HTML Tutorial</li>
+            <li> Certification of completion of Python development intern by cognifyz</li>
+            <li> Certification on successfully completed Python 101 for Data Science provided by IBM</li>
+            <li> Microsoft Certified: Azure AI Fundamentals</li>
+        </ul>
+    </section>
+    <SECTION class="STRENGTHS">
+        <h2>Strengths</h2>
+        <ul>
+            <li> Active listener</li>
+            <li> Adaptability</li>
+            <li> Self-motivator</li>
+        </ul>
+    </SECTION>
+</div>
